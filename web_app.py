@@ -10,3 +10,6 @@ def main_page(name,password='hpsystem'):
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template("404.html"),404
+@app.errorhandler(505)
+def erro_505():
+    return render_template("404.html"),505
