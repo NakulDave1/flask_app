@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .details{
+            background-color:lawngreen;
+            margin-left: 400px;
+            
+        }
+        .details ul li {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="details">
+    User Details: 
+    <ul>
+
+    <li>Password: {{password|upper}}</li>
+    </ul>
+    {% for text_str  in text %}{{text.54}}</br>{% endfor %}
+
+</div>
+</body>
+</html>
